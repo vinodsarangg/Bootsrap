@@ -1,15 +1,21 @@
-   
+   body*{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+   }
       .col-12 h1{
         position: relative;
        left: 40px;;
         top: 310px;
+        font-weight: 20px;
     }
     
     .col-12 button{
         
        
         position: relative;
-         left: 300px;
+        left: 300px;
         top:350px;
        
         border-radius: 10px 10px 10px 10px ;
@@ -20,14 +26,14 @@
     
     }
             .navbar-nav {
-                font-size: 12px;
+                font-size: 18px;
             }
             
             /* profile_card */
             .card {
-                background-color: #fff;
+                background-color: #888787;
                 text-align: center;
-                width: 270px; /* Adjust width as needed */
+                 width: 270px; /*Adjust width as needed */
                 margin: 100px auto 50px; /* Center card and add space from top and bottom */
                 border-radius: 10px;
                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -52,7 +58,7 @@
             }
             
             .card a {
-                color: #007bff;
+                color: rgb(6, 4, 4);;
                 text-decoration: none;
             }
             
@@ -65,10 +71,86 @@
                left:90px;
                bottom: 30px;
             }
-
+            
             /* Register_anchor_register */
             .anchor_register{
                 position: relative;
                left:100px;
                bottom: 30px;
             }
+            .card_Register{
+                background-color: #888787;
+                 
+            }
+            .card_Register h2{
+               position: relative;
+               top:10px;
+            }
+            .card_Register{
+                   border-radius: 10px;
+            }
+
+            .card_Register:hover{
+          
+                box-shadow: 2px 2px 5px 2px rgb(194, 44, 44);
+               
+            }
+            .card_Register a{
+                color: rgba(0, 0, 255, 0.641);
+            }
+            .card_Register a:hover{
+                color:rgb(6, 4, 4);
+            }
+            
+
+            .card_login{
+                height: 300px;
+               padding-left: 20px;
+               padding-right: 70px;
+               margin-top: 200px;
+               position: relative;
+               bottom: 100px;
+               left: 80px;               
+               color:black;
+             
+                width: 300px;
+                border-radius: 10px;
+                background-color: #888787;;
+            }
+            .card_login a:hover{
+                color:rgb(6, 4, 4);
+            }
+
+            /* feedback */
+
+.card_feedback {
+    height: 410px;
+    padding-left: 20px;
+    padding-right: 70px;
+    margin-top: 200px;
+    position: relative;
+    bottom: 90px;
+    left: 80px;               
+    color:black;
+  
+     width: 300px;
+     border-radius: 10px;
+     background-color: #888787;
+}
+.card_feedback h1{
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    left: 15px;
+    top: 10px;
+ 
+}
+.button{
+    position: relative;
+    left: 80px;
+    top: 25px;
+}
+.button.button:hover{
+    background-color: azure;
+    color: black;
+}
